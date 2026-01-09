@@ -1,4 +1,3 @@
-from src.db.database import get_db_connection
 from src.db.schema import create_tables
 from src.services.user_service import create_user, get_all_users, get_user_by_email, delete_user_by_email, update_user_email
 
